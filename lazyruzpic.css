@@ -2,7 +2,7 @@
 body{
 background: linear-gradient(90deg, rgb(169, 229, 190), rgb(164, 201, 225));
 }
-h1{text-align: center;}
+.zagol{text-align: center;}
 p{font-size: x-large;
 line-height: 1.5;
 text-indent: 30px;
@@ -27,3 +27,19 @@ border: 3px solid gray;
 border-radius: 1rem;
 margin-bottom: .5rem;
 }
+.perevod{ cursor: pointer;
+color: white;
+padding: 8px;
+font-size: 12px; 
+border-radius: 30px;
+background-color: transparent; 
+border-color: yellow;
+} 
+*{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+            
